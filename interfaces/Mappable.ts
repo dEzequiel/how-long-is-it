@@ -3,4 +3,5 @@ export interface Mappable {
         latitude: number,
         longitud: number
     }
+    markerContent(): string;
 }
